@@ -4,13 +4,13 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="538.0" prefWidth="1021.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.adminPage.HomePageAdminPageController">
+<AnchorPane prefHeight="538.0" prefWidth="1021.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.adminPage.HomePageAdminPageController">
     <children>
         <AnchorPane prefHeight="538.0" prefWidth="1021.0" style="-fx-background-color: #424242; -fx-background-radius: 25;">
             <children>
-                <Label alignment="CENTER" layoutX="211.0" layoutY="175.0" prefHeight="188.0" prefWidth="667.0" style="-fx-border-color: #18ffff; -fx-border-radius: 25; -fx-border-width: 7;" text="Welcome to your page, Dear Employee!" textFill="#18ffff">
+                <Label alignment="CENTER" layoutX="211.0" layoutY="175.0" prefHeight="188.0" prefWidth="667.0" style="-fx-border-color: #18ffff; -fx-border-radius: 25; -fx-border-width: 7;" text="مدیر محترم، به صفحه خود خوش آمدید!" textFill="#18ffff">
                     <font>
-                        <Font name="Bell MT Bold" size="30.0" />
+                        <Font name="System Bold" size="35.0" />
                     </font>
                 </Label>
             </children>

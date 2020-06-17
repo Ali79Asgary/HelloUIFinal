@@ -127,6 +127,17 @@ public class EmployeePageController implements Initializable {
             e.printStackTrace();
         }
     }
+    @FXML
+    public void goToSalaryRec(MouseEvent mouseEvent) {
+        try {
+            fxmlLoader = new FXMLLoader(getClass().getResource("SalaryRecEmployeePage.fxml"));
+            mainAnchor.getChildren().removeAll();
+            mainAnchor.getChildren().add(fxmlLoader.load());
+        }catch (Exception e){
+            System.out.println(e.getMessage());
+            e.printStackTrace();
+        }
+    }
 
     @FXML
     void logOut()
@@ -175,4 +186,6 @@ public class EmployeePageController implements Initializable {
              e.printStackTrace();
          }
     }
+
+
 }
