@@ -4,13 +4,13 @@
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="542.0" prefWidth="977.0" xmlns="http://javafx.com/javafx/8.0.221" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.employeePage.SalaryReceiptEmployeePageController">
+<AnchorPane prefHeight="534.0" prefWidth="993.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.employeePage.SalaryReceiptEmployeePageController">
     <children>
-        <AnchorPane prefHeight="538.0" prefWidth="963.0" style="-fx-background-color: #424242; -fx-background-radius: 25;">
+        <AnchorPane prefHeight="534.0" prefWidth="993.0" style="-fx-background-color: #424242; -fx-background-radius: 25;">
          <children>
-            <AnchorPane layoutX="5.0" layoutY="24.0" prefHeight="504.0" prefWidth="1021.0" style="-fx-border-color: #18ffff; -fx-border-width: 7; -fx-background-radius: 25; -fx-border-radius: 25;" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="-3.0" AnchorPane.topAnchor="24.0">
+            <AnchorPane layoutY="-1.0" prefHeight="534.0" prefWidth="993.0" style="-fx-border-color: #18ffff; -fx-border-width: 7; -fx-background-radius: 25; -fx-border-radius: 25;">
                <children>
-                  <TableView fx:id="table" layoutX="13.0" layoutY="17.0" prefHeight="467.0" prefWidth="963.0">
+                  <TableView fx:id="table" layoutX="17.0" layoutY="16.0" prefHeight="503.0" prefWidth="964.0">
                     <columns>
                       <TableColumn fx:id="col_actionId" editable="false" prefWidth="34.0" style="-fx-font-size: 8px;" text="شماره" />
                       <TableColumn fx:id="col_jobAllowance" editable="false" prefWidth="56.0" style="-fx-font-size: 8px;" text="حق شغل" />

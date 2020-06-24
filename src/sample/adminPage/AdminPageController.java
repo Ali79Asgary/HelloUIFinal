@@ -127,6 +127,17 @@ public class AdminPageController implements Initializable {
             e.printStackTrace();
         }
     }
+    @FXML
+    public void goToReceiptAction(MouseEvent mouseEvent) {
+        try {
+            fxmlLoader = new FXMLLoader(getClass().getResource("ReceiptAdminPage.fxml"));
+            mainAnchor.getChildren().removeAll();
+            mainAnchor.getChildren().add(fxmlLoader.load());
+        } catch (Exception e){
+            System.out.println(e.getMessage());
+            e.printStackTrace();
+        }
+    }
 
     @FXML
     void logOut()
@@ -176,4 +187,6 @@ public class AdminPageController implements Initializable {
              e.printStackTrace();
          }
     }
+
+
 }
